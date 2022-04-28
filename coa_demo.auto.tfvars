@@ -112,7 +112,7 @@ auto_scaling               = "true"
 #The current state of the Autonomous Database. Could be set to AVAILABLE or STOPPED
 adb_state                  = "AVAILABLE"
 #Enable/Disable Operations Insights for this Autonomous Database. Values supported are ENABLED and NOT_ENABLED
-insights_status = "NOT_ENABLED"
+insights_status            = "NOT_ENABLED"
 #Requiered for Manual backup configuration
 username                   =  "oracleidentitycloudservice/paola.juarez@oracle.com"
 #password                  >>>  Stored in a github secret as password
@@ -121,7 +121,7 @@ create_bucket              = "True"
 #Pre configure database to be able to do manual backups
 conf_manual_backup         = "True"
 #To run a manual backup
-run_manual_backup = "False"
+run_manual_backup          = "False"
 #To configure events and alarms of CPU and sessions
-conf_mon = "True"
+conf_mon                   = "True"
 
